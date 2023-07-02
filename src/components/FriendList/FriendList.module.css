@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 228, 196);
+    margin-top: 50px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 500ms;
+    cursor: pointer;
+}
+
+.list:hover {
+    transform: scale(1.05);
+}
